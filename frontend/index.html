@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RX52X8RM8H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-RX52X8RM8H');
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <title>JustSpark</title>
+  <meta property="og:title" content="JustSpark" />
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/favicon.svg" />
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+  <script type="module">
+    import { Buffer } from "buffer";
+    window.Buffer = Buffer;
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <div id="simple-modal"></div>
+
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

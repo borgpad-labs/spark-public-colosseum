@@ -1,0 +1,197 @@
+{
+  "id": "puffer-finance",
+  "config": {
+    "cluster": "devnet",
+
+    "lpPositionToBeBurned": true,
+
+    "raiseTargetInUsd": 2000000,
+    "fdv": 2301444,
+    "marketCap": 2301444,
+
+    "totalTokensForLiquidityPool": 25000,
+    "totalTokensForRewardDistribution": 1800,
+
+    "rewardsDistributionTimeInMonths": 6,
+
+    "finalSnapshotTimestamp": "2024-10-10T00:00:00Z",
+
+    "lbpWalletAddress": "Dkj2wARcBhwQYnTUTPoppcBj7eRKnu6pQAd8uVgmQF1R",
+    "raisedTokenData": {
+      "iconUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=040",
+      "ticker": "USDC",
+
+      "mintAddress": "Gh9ZwEmdLJ8DscKNTkTqPbNwLNNBjuSzaG9Vp2KGtKJr",
+      "decimals": 6,
+      "fixedTokenPriceInUsd": 0.9,
+      "coinGeckoName": "usd"
+    },
+    "launchedTokenData": {
+      "iconUrl": "https://pub-afd56fb014c94eac935a52c2d0d6a5e8.r2.dev/images/milan-crypto-test/project-coin-icon.svg",
+      "ticker": "LRC",
+
+      "mintAddress": "Gh9ZwEmdLJ8DscKNTkTqPbNwLNNBjuSzaG9Vp2KGtKJr",
+      "decimals": 6,
+      "fixedTokenPriceInUsd": 0.9
+    }
+  },
+  "info": {
+    "claimUrl": null,
+    "tweetUrl": null,
+    "tokenContractUrl": null,
+    "poolContractUrl": null,
+
+    "projectType": "goat",
+    "title": "Puffer Finance",
+    "subtitle": "Anti-Slashing Liquid Staking",
+    "logoUrl": "/images/puffer-finance/avatar.png",
+    "thumbnailUrl": "",
+    "origin": "🇮🇹 Italy",
+    "sector": "Healthcare",
+    "tokenGenerationEventDate": "2024-07-12T12:39:16Z",
+    "chain": {
+      "name": "Zora",
+      "iconUrl": "/images/puffer-finance/chain-icon.png"
+    },
+    "dataRoom": {
+      "backgroundImgUrl": "/images/puffer-finance/avatar2.png",
+      "url": "#"
+    },
+    "liquidityPool": {
+      "name": "Raydium",
+      "iconUrl": "/images/puffer-finance/liquidity-pool-icon.png",
+      "lbpType": "Full Range",
+      "lockingPeriod": "12-month lockup"
+    },
+    "curator": {
+      "avatarUrl": "/images/puffer-finance/curator-avatar.png",
+      "fullName": "John Doe",
+      "position": "Founding Contributor",
+      "socials": [
+        {
+          "url": "https://medium.com/@puffer.fi",
+          "iconType": "MEDIUM",
+          "label": "Medium"
+        },
+        {
+          "url": "https://www.linkedin.com/company/puffer-finance",
+          "iconType": "LINKED_IN",
+          "label": "Linkedin"
+        },
+        {
+          "url": "https://twitter.com/puffer_finance",
+          "iconType": "X_TWITTER",
+          "label": "X (ex-Twitter)"
+        }
+      ]
+    },
+    "projectLinks": [
+      {
+        "url": "https://www.puffer.fi",
+        "__comment": "Possible values: \"MEDIUM\" | \"LINKED_IN\" | \"WEB\" | \"X_TWITTER\"",
+        "iconType": "WEB",
+        "label": ""
+      },
+      {
+        "url": "https://medium.com/@puffer.fi",
+        "iconType": "MEDIUM",
+        "label": ""
+      },
+      {
+        "url": "https://www.linkedin.com/company/puffer-finance",
+        "iconType": "LINKED_IN",
+        "label": ""
+      },
+      {
+        "url": "https://twitter.com/puffer_finance",
+        "iconType": "X_TWITTER",
+        "label": ""
+      }
+    ],
+    "timeline": [
+      {
+        "id": "REGISTRATION_OPENS",
+        "label": "Registration Opens",
+        "date": "2024-10-20"
+      },
+      {
+        "id": "SALE_OPENS",
+        "label": "Sale Opens",
+        "date": "2024-11-02"
+      },
+      {
+        "id": "SALE_CLOSES",
+        "label": "Sale Closes",
+        "date": "2024-11-07"
+      },
+      {
+        "id": "REWARD_DISTRIBUTION",
+        "label": "Reward Distribution",
+        "date": "2024-11-10"
+      },
+      {
+        "id": "DISTRIBUTION_OVER",
+        "label": "Distribution Over",
+        "date": "2025-07-10"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "tier0",
+        "label": "Silver",
+        "quests": [
+          {
+            "type": "HOLD_TOKEN",
+            "tokenName": "USDC",
+            "tokenAmount": "1",
+            "tokenMintAddress": "Gh9ZwEmdLJ8DscKNTkTqPbNwLNNBjuSzaG9Vp2KGtKJr"
+          }
+        ],
+        "benefits": {
+          "startDate": "2024-10-30",
+          "minInvestment": "10",
+          "maxInvestment": "999"
+        }
+      },
+      {
+        "id": "tier1",
+        "label": "Gold",
+        "quests": [
+          {
+            "type": "FOLLOW_ON_TWITTER",
+            "twitterHandle": "@borgpadhq",
+            "twitterLabel": "BorgPad"
+          },
+          {
+            "type": "HOLD_TOKEN",
+            "tokenName": "USDC",
+            "tokenAmount": "100",
+            "tokenMintAddress": "Gh9ZwEmdLJ8DscKNTkTqPbNwLNNBjuSzaG9Vp2KGtKJr"
+          }
+        ],
+        "benefits": {
+          "startDate": "2024-10-23",
+          "minInvestment": "10",
+          "maxInvestment": "999"
+        }
+      },
+      {
+        "id": "tier2",
+        "label": "Diamond",
+        "quests": [
+          {
+            "type": "HOLD_TOKEN",
+            "tokenName": "USDC",
+            "tokenAmount": "20000",
+            "tokenMintAddress": "Gh9ZwEmdLJ8DscKNTkTqPbNwLNNBjuSzaG9Vp2KGtKJr"
+          }
+        ],
+        "benefits": {
+          "startDate": "2024-10-21",
+          "minInvestment": "10",
+          "maxInvestment": "999999"
+        }
+      }
+    ]
+  }
+}

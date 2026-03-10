@@ -1,0 +1,145 @@
+{
+  "id": "borgy-test-1",
+  "config": {
+    "cluster": "devnet",
+
+    "lpPositionToBeBurned": true,
+
+    "raiseTargetInUsd": 50000,
+    "fdv": 1000000,
+    "marketCap": 50000,
+
+    "totalTokensForLiquidityPool": 3888888889,
+    "totalTokensForRewardDistribution": 3888888889,
+
+    "rewardsDistributionTimeInMonths": 6,
+
+    "finalSnapshotTimestamp": "2024-12-10T13:00:00Z",
+
+    "lbpWalletAddress": "3eEZggDmHSfnv46wQMB4bANwRjmdyYzy5ZPyYLJtMUiC",
+    "raisedTokenData": {
+      "iconUrl": "https://files.borgpad.com/usdc-logo.png",
+      "ticker": "USDC",
+      "mintAddress": "Gh9ZwEmdLJ8DscKNTkTqPbNwLNNBjuSzaG9Vp2KGtKJr",
+      "decimals": 6,
+      "fixedTokenPriceInUsd": 1,
+      "coinGeckoName": "usd"
+    },
+    "launchedTokenData": {
+      "iconUrl": "https://files.borgpad.com/images/borgy/borgy-logo.webp",
+      "ticker": "BORGY",
+      "mintAddress": "BorGY4ub2Fz4RLboGxnuxWdZts7EKhUTB624AFmfCgX",
+      "decimals": 5,
+      "fixedTokenPriceInUsd": 0.00001286
+    },
+    "rewardDistribution": {
+      "atTge": {
+        "rewardRatio": 0.5
+      },
+      "afterTge": {
+        "rewardRatio": 0.5,
+        "numberOfPayments": 5
+      }
+    }
+  },
+  "info": {
+    "claimUrl": null,
+    "tweetUrl": "https://x.com/BorgPadHQ/status/1866470792734572572",
+    "tokenContractUrl": null,
+    "poolContractUrl": null,
+
+    "projectType": "blitz",
+    "title": "BORGY TEST 1",
+    "subtitle": "The Community Pet of SwissBorg",
+    "logoUrl": "https://files.borgpad.com/images/borgy/borgy-logo.webp",
+    "thumbnailUrl": "https://files.borgpad.com/images/borgy/borgy-thumbnail.png",
+    "origin": "The Alps 🏔️",
+    "sector": "Meme",
+    "tokenGenerationEventDate": "10th December, 2024",
+    "chain": {
+      "name": "Solana",
+      "iconUrl": "https://i.redd.it/yfsqpy0126r81.jpg"
+    },
+    "dataRoom": {
+      "backgroundImgUrl": "",
+      "url": "https://drive.google.com/file/d/1ELtP99cdMST5MyT17qnCCkvfbA09v2Tr/view"
+    },
+    "liquidityPool": {
+      "name": "Raydium",
+      "iconUrl": "https://cdn.prod.website-files.com/614c99cf4f23700c8aa3752a/637db1045802ea0c2b7dbcea_public.png",
+      "lbpType": "Concentrated Liquidity",
+      "lockingPeriod": "∞"
+    },
+    "curator": {
+      "avatarUrl": "https://s2.coinmarketcap.com/static/img/coins/200x200/2499.png",
+      "fullName": "SwissBorg",
+      "position": "Community Initiative",
+      "socials": [
+        {
+          "url": "swissborg.com",
+          "iconType": "WEB",
+          "label": "Web"
+        },
+        {
+          "url": "https://x.com/swissborg",
+          "iconType": "X_TWITTER",
+          "label": "X (ex-Twitter)"
+        }
+      ]
+    },
+    "projectLinks": [
+      {
+        "url": "https://borgy.ch",
+        "__comment": "Possible values: \"MEDIUM\" | \"LINKED_IN\" | \"WEB\" | \"X_TWITTER\"",
+        "iconType": "WEB",
+        "label": ""
+      },
+      {
+        "url": "https://x.com/borgysol",
+        "iconType": "X_TWITTER",
+        "label": ""
+      }
+    ],
+    "timeline": [
+      {
+        "id": "REGISTRATION_OPENS",
+        "label": "Registration Opens",
+        "date": "2025-03-03T23:00:00Z"
+      },
+      {
+        "id": "SALE_OPENS",
+        "label": "Sale Opens",
+        "date": "2025-03-04T10:00:00Z"
+      },
+      {
+        "id": "SALE_CLOSES",
+        "label": "Sale Closes",
+        "date": "2025-03-04T11:10:00Z"
+      },
+      {
+        "id": "REWARD_DISTRIBUTION",
+        "label": "Reward Distribution",
+        "date": "2025-03-04T12:00:00Z"
+      },
+      {
+        "id": "DISTRIBUTION_OVER",
+        "label": "Distribution Over",
+        "date": "2025-08-12T23:00:00Z"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "tier99",
+        "label": "Public Sale",
+        "description": "Access to sale at 2 PM CET. Max Investment $250",
+        "quests": [],
+        "benefits": {
+          "startDate": "2025-03-04T10:00:00Z",
+          "minInvestment": "10",
+          "maxInvestment": "250"
+        }
+      }
+    ]
+  }
+}
+  

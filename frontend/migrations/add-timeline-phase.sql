@@ -1,0 +1,1 @@
+ALTER TABLE ideas ADD COLUMN timeline_phase INTEGER DEFAULT NULL;

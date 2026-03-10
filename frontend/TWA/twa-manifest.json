@@ -1,0 +1,51 @@
+{
+  "packageId": "fun.justspark.twa",
+  "host": "justspark.fun",
+  "name": "Spark-it",
+  "launcherName": "Spark-it",
+  "display": "standalone",
+  "themeColor": "#000000",
+  "themeColorDark": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#F25C05",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://pub-de890a2635e6410899c0ebff08b09c53.r2.dev/sparkit/spark_logo.png",
+  "maskableIconUrl": "https://pub-de890a2635e6410899c0ebff08b09c53.r2.dev/sparkit/spark_maskable_logo.png",
+  "monochromeIconUrl": "https://pub-de890a2635e6410899c0ebff08b09c53.r2.dev/sparkit/spark_logo_nobg_black.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "/Users/ewanhamon/Documents/Code/Spark/spark-it/frontend/TWA/android.keystore",
+    "alias": "sparkit-android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://justspark.fun/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://justspark.fun/",
+  "minSdkVersion": 21,
+  "orientation": "default",
+  "fingerprints": [
+    {
+      "value": "64:1E:3A:47:61:64:CF:FD:1D:91:10:85:17:CA:BC:12:1E:69:DF:83:73:59:1B:DC:B8:B1:B8:CE:0D:BB:15:87"
+    }
+  ],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [],
+  "fileHandlers": [],
+  "launchHandlerClientMode": "",
+  "appVersion": "1"
+}

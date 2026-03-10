@@ -1,0 +1,17 @@
+name = "claim-damm-fees"
+main = "claim-damm-fees.js"
+compatibility_date = "2024-01-01"
+
+[triggers]
+crons = ["0 */6 * * *"]  # Run every 6 hours
+
+[vars]
+# These will be set via wrangler secret or environment variables
+# ADMIN_API_KEY = "your-admin-api-key"
+# CLAIM_ALL_FEES_API = "https://your-domain.com/api/claimalldammfees"
+
+# Optional: Add your account ID if you have multiple accounts
+# account_id = "your-cloudflare-account-id" 
+
+[observability.logs]
+enabled = true

@@ -1,0 +1,1 @@
+export { default as GitHubScoreCard } from './GitHubScoreCard' 

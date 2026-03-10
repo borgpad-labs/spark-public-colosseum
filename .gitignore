@@ -1,0 +1,38 @@
+# IDE
+.idea
+.vscode
+
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+build
+frontend/dist
+target
+test-ledger
+
+# Cloudflare
+.wrangler
+wrangler_production.toml
+wrangler_staging.toml
+
+# Environment
+.env
+.env.local
+.env.production
+.envtest
+
+# Solana keypairs
+*.keypair.json
+*.secret.json
+admin.json
+
+# Misc
+.DS_Store
+tmp/
+cf-testing
+.prettierignore
+
+# Lock files (keep package-lock.json)
+Cargo.lock

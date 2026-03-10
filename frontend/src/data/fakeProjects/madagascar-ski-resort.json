@@ -1,0 +1,150 @@
+{
+    "id": "madagascar-ski-resort",
+    "config": {
+      "cluster": "devnet",
+      "lpPositionToBeBurned": true,
+      "raiseTargetInUsd": 100000,
+      "fdv": 7000000,
+      "marketCap": 0,
+      "totalTokensForLiquidityPool": 14285714,
+      "totalTokensForRewardDistribution": 14285714,
+      "rewardsDistributionTimeInMonths": 6,
+      "finalSnapshotTimestamp": "2025-02-18T15:00:00Z",
+      "lbpWalletAddress": "4GvgisWbCKJCFfksnU44qyRAVwd8YjxuhhsDCDSRjMnL",
+      "raisedTokenData": {
+        "iconUrl": "https://files.borgpad.com/usdc-logo.png",
+        "ticker": "USDC",
+        "mintAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "decimals": 6,
+        "fixedTokenPriceInUsd": 1,
+        "coinGeckoName": "usd"
+      },
+      "launchedTokenData": {
+        "iconUrl": "https://files.borgpad.com/images/cvagentlauncher/agentlauncher-token.png",
+        "ticker": "SKI",
+        "mintAddress": null,
+        "decimals": 6,
+        "fixedTokenPriceInUsd": 0.007
+      }
+    },
+    "info": {
+      "claimUrl": null,
+      "tweetUrl": null,
+      "tokenContractUrl": null,
+      "poolContractUrl": null,
+  
+      "projectType": "draft-pick",
+      "title": "Madagascar Ski Resort",
+      "subtitle": "The AI Launchpad, create your own AI agents & tokens on the platform",
+      "logoUrl": "https://pub-afd56fb014c94eac935a52c2d0d6a5e8.r2.dev/images/madagascar-ski-resort/new-logo.png",
+      "thumbnailUrl": "https://pub-afd56fb014c94eac935a52c2d0d6a5e8.r2.dev/images/madagascar-ski-resort/new-logo.png",
+      "origin": "The Singularity",
+      "sector": "AI Launchpad",
+      "tokenGenerationEventDate": "Q3 2025",
+      "targetFdv": "$2M - $3M",
+      "chain": {
+        "name": "Solana",
+        "iconUrl": "https://files.borgpad.com/images/zkagi/solana-small.jpg"
+      },
+      "dataRoom": {
+        "backgroundImgUrl": "",
+        "url": "https://borgpad-data-room.notion.site/agentlauncher?pvs=4"
+      },
+      "liquidityPool": {
+        "name": "Raydium",
+        "iconUrl": "https://files.borgpad.com/images/shared/raydium-logo-small.png",
+        "lbpType": "Mixed",
+        "lockingPeriod": "∞"
+      },
+      "curator": {
+        "avatarUrl": "https://pub-afd56fb014c94eac935a52c2d0d6a5e8.r2.dev/images/madagascar-ski-resort/curator-avatar-967639233",
+        "fullName": "Confused Samurai Jack",
+        "position": "Alpha Deal",
+        "socials": [
+          {
+            "url": "https://swissborg.com",
+            "iconType": "WEB",
+            "label": "Web"
+          },
+          {
+            "url": "https://x.com/swissborg",
+            "iconType": "X_TWITTER",
+            "label": ""
+          }
+        ]
+      },
+      "projectLinks": [
+        {
+          "url": "https://www.agentlauncher.io/",
+          "iconType": "WEB",
+          "label": ""
+        },
+        {
+          "url": "https://x.com/CVAgentlauncher",
+          "iconType": "X_TWITTER",
+          "label": ""
+        },
+        {
+          "url": "https://t.me/Mathis_btc",
+          "iconType": "TELEGRAM",
+          "label": ""
+        }
+      ],
+      "timeline": [
+        {
+          "id": "REGISTRATION_OPENS",
+          "label": "Registration Opens",
+          "date": "2025-03-07T10:00:00Z"
+        },
+        {
+          "id": "SALE_OPENS",
+          "label": "Sale Opens",
+          "date": "2025-03-18T15:00:00Z"
+        },
+        {
+          "id": "SALE_CLOSES",
+          "label": "Sale Closes",
+          "date": "2025-03-18T23:59:00Z"
+        },
+        {
+          "id": "REWARD_DISTRIBUTION",
+          "label": "Reward Distribution",
+          "date": "2025-03-18T23:59:00Z"
+        },
+        {
+          "id": "DISTRIBUTION_OVER",
+          "label": "Distribution Over",
+          "date": "2025-07-18T23:59:00Z"
+        }
+      ],
+      "tiers": [
+        {
+          "id": "tier10",
+          "label": "Borgers Club.",
+          "quests": [
+            {
+              "type": "HOLD_TOKEN",
+              "tokenName": "BORG",
+              "tokenAmount": "1000",
+              "tokenMintAddress": "3dQTr7ror2QPKQ3GbBCokJUmjErGg8kTJzdnYjNfvi3Z"
+            }
+          ],
+          "benefits": {
+            "startDate": "2025-03-18T15:00:00Z",
+            "minInvestment": "100",
+            "maxInvestment": "500"
+          }
+        },
+        {
+          "id": "tier99",
+          "label": "Public Sale",
+          "quests": [],
+          "benefits": {
+            "startDate": "2025-03-18T18:15:00Z",
+            "minInvestment": "10",
+            "maxInvestment": "250"
+          }
+        }
+      ]
+    }
+  }

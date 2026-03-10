@@ -1,0 +1,1 @@
+ALTER TABLE ideas ADD COLUMN token_address TEXT DEFAULT NULL;
