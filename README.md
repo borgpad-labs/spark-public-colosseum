@@ -12,10 +12,6 @@
 
 ## Colosseum Eternal Hackathon
 
-**Hackathon:** [Solana Graveyard Hack](https://solana.com/graveyard-hack)
-
-**Sponsor Track:** Realms — DAOs ($5,000)
-
 **Deployed app:** [justspark.fun/ideas](https://justspark.fun/ideas)
 
 **First funded idea (hackathon live):** [OpenClaw Instances for Investors](https://justspark.fun/ideas/openclaw-instances-for-investors)
