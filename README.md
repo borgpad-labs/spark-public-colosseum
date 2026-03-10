@@ -10,7 +10,7 @@
 
 ---
 
-## Graveyard Hackathon Submission
+## Colosseum Eternal Hackathon
 
 **Hackathon:** [Solana Graveyard Hack](https://solana.com/graveyard-hack)
 
